@@ -1,0 +1,15 @@
+CREATE TABLE healthcare_claims (id SERIAL PRIMARY KEY, patient VARCHAR(100), diagnosis_description VARCHAR(255), procedure_code VARCHAR(10), provider VARCHAR(100), service_date DATE, claim_submission_date DATE, bill_amount DECIMAL(10, 2), claim_status VARCHAR(50));
+
+select * from healthcare_claims;
+
+SELECT diagnosis_description, AVG(bill_amount) AS average_bill_amountFROM healthcare_claims GROUP BY diagnosis_description;
+
+SELECT * FROM healthcare_claims WHERE claim_submission_date BETWEEN '2024-01-01' AND '2024-01-31';
+
+SELECT provider, SUM(bill_amount) AS total_bill_amount FROM healthcare_claims GROUP BY provider ORDER BY total_bill_amount DESC LIMIT 10;
+
+SELECT * FROM healthcare_claims WHERE bill_amount > 500.00;
+
+SELECT * FROM healthcare_claims WHERE claim_status = 'Approved';
+
+

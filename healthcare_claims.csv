@@ -1,0 +1,11 @@
+patient,diagnosis_description,procedure_code,provider,service_date,claim_submission_date,bill_amount,claim_status
+Terry Ramirez,Urinary Tract Infection,45678,UCLA Health,2023-09-20,2023-10-18,332.94,Approved
+Tina Thomas,Acute Pharyngitis,45678,Stanford Health Care,2023-06-19,2023-07-06,417.56,Pending
+Debbie Fields,Hypertension,78901,Mercy Health System,2024-03-26,2024-04-08,974.63,Approved
+Bryan Barrera,Type 2 Diabetes Mellitus,23045,NYU Langone Health,2024-03-21,2024-04-10,796.14,Pending
+Matthew Macdonald,Anxiety Disorder,23045,Mount Sinai Hospital,2023-10-16,2023-11-11,617.65,Approved
+Nathan Murray,Coronary Atherosclerosis,78901,UCLA Health,2023-06-06,2023-06-09,243.47,Approved
+Darius Norton,Acute Bronchitis,45678,Mount Sinai Hospital,2023-09-21,2023-10-14,123.09,Pending
+Molly Peterson,Acute Pharyngitis,78901,Johns Hopkins Hospital,2023-07-21,2023-08-06,609.48,Approved
+Jamie Castaneda,Asthma,78901,Johns Hopkins Hospital,2023-11-05,2023-11-11,361.28,Pending
+Edward Walker,Dermatitis,23045,General Hospital Corporation,2023-11-13,2023-11-30,700.89,Approved
